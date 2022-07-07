@@ -22,7 +22,7 @@ for(var i = 0; i < length; i++)
     elevators.Add(250 * i, RandomInt(-300, renderer.Height - 270), 200, 250, 200, 250);
   }
   else {
-    elevators.AddCoin(250 * i + 100, 900);
+    elevators.AddCoin(250 * i + 100, renderer.Height - 50);
   }
 }
 
